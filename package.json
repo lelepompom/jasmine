@@ -1,0 +1,26 @@
+{
+  "name": "__jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "eslint": "eslint"
+  },
+  "keywords": [],
+  "author": "Sandra Ortega",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jasmine": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lelepompom/jasmine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lelepompom/jasmine/issues"
+  },
+  "homepage": "https://github.com/lelepompom/jasmine#readme"
+}
