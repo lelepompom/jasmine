@@ -14,3 +14,9 @@ Expectations are built with the function expect which takes a value, called the 
 ### Matchers
 Each matcher implements a boolean comparison between the actual value and the expected value. It is responsible for reporting to Jasmine if the expectation is true or false. Jasmine will then pass or fail the spec. Any matcher can evaluate to a negative assertion by chaining the call to expect with a not before calling the matcher. 
 Check the full list in the [API docs](https://jasmine.github.io/api/edge/matchers.html)
+
+### Spies
+A spy can stub any function and tracks calls to it and all arguments. A spy only exists in the describe or it block in which it is defined, and will be removed after each spec. There are special matchers for interacting with spies. When there is not a function to spy on, jasmine.createSpy can create a "bare" spy. This spy acts as any other spy - tracking calls, arguments, etc. But there is no implementation behind it.
+
+### Try it out
+```npm test```
