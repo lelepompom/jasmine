@@ -5,5 +5,10 @@ function add(a,b) {
     return a + b;
 }
 
+function isValidNumber(a) {
+    return typeof(a) === "number";
+}
+
 module.exports = {}
 module.exports.add = add
+module.exports.isValidNumber = isValidNumber;
