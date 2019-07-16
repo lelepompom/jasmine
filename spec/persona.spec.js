@@ -1,4 +1,4 @@
-const Persona = require('../../persona.js');
+const Persona = require('../persona.js');
 
 describe('Testing Personas', () => {
     let p;

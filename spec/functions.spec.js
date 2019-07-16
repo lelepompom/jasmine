@@ -1,4 +1,4 @@
-const { add, isValidNumber } = require('../../functions.js')
+const { add, isValidNumber } = require('../functions.js')
 
 describe('Testing functions exported', () => {
     it('Should add', () => {
