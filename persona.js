@@ -4,6 +4,10 @@ module.exports = class Persona {
         this._check();
     }
 
+    get fullname() {
+        return `${this.name} Pérez`;
+    }
+
     _check() {
         this.bool = true;
     }
